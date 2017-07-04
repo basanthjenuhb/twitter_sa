@@ -1,1 +1,5 @@
 google.bin.gz
+build/*
+*pycache*
+*pyc
+*checkpoints*/*

@@ -1,0 +1,11 @@
+[classifier]
+vectorSize = 300
+modelFile = resources/model1.h5
+slangsFile = resources/slangs.pkl
+word2vecFile = resources/google.bin.gz
+
+[kafkaConsumer]
+topic = twitter_stream
+bootrap_servers = localhost:9092
+
+

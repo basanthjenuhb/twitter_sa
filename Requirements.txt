@@ -1,0 +1,6 @@
+tensorflow
+pandas
+keras
+kafka-python
+sklearn
+gensim

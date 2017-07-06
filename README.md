@@ -24,6 +24,7 @@ git clone https://github.com/basanthjenuhb/twitter_sa.git
 nohup ~/kafka/bin/kafka-server-start.sh ~/kafka/config/server.properties > ~/kafka/kafka.log 2>&1 &
 ```
 3. Start Elastic search
+  - Use code in elasticsearch.txt to initialize elasticsearch index
 ```bash
 cd path/to/elasticsearch/directory
 bin/elasticsearch -d

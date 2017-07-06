@@ -8,4 +8,6 @@ word2vecFile = resources/google.bin.gz
 topic = twitter_stream
 bootrap_servers = localhost:9092
 
-
+[elasticSearch]
+index = sentimentanalysis
+docType = twitter

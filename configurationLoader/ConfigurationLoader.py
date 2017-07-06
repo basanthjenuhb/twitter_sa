@@ -1,6 +1,9 @@
 import configparser
 
 class ConfigurationLoader:
+    """
+    A class to load configuration properties
+    """
     def __init__(self, fileName):
         self.parser = configparser.ConfigParser()
         self.parser.read(fileName)
@@ -22,3 +25,9 @@ class ConfigurationLoader:
     
     def getVectorSize(self):
         return int(self.parser.get('classifier','vectorSize'))
+    
+    def getIndex(self):
+        return self.parser.get('elasticSearch','index')
+    
+    def getDocType(self):
+        return self.parser.get('elasticSearch','docType')

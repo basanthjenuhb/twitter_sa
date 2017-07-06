@@ -4,3 +4,5 @@ keras
 kafka-python
 sklearn
 gensim
+elasticsearch
+nltk

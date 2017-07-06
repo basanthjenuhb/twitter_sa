@@ -1,0 +1,19 @@
+PUT /sentimentanalysis
+{
+  "mappings": {
+    "twitter" : {
+      "properties" : {
+        "tweet" : {
+          "type" :    "string",
+          "analyzer": "english"
+        },
+        "date" : {
+          "type" :   "date"
+        },
+        "score" : {
+          "type" :   "float"
+        }
+      }
+    }
+  }
+}

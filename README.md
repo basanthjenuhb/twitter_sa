@@ -16,6 +16,8 @@ pip -r Requirements.txt
 ```bash
 git clone https://github.com/basanthjenuhb/twitter_sa.git
 ``` 
+  - The google.bin.gz is present in the server. I could not put it to github since its size is 1.5 GB
+  - Put that file in resources/ folder
 2. Start Kafka Server
   - Login to the user where kafka is installed
 ```bash

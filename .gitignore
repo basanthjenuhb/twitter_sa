@@ -4,3 +4,4 @@ build/*
 *pyc
 *checkpoints*/*
 .idea/*
+*log*
